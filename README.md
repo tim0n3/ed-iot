@@ -1,8 +1,5 @@
 # ed-iot
 Energy Drive - IoT Device - Loadout
-This is a setup script to automate the setup and provisioning of Ubuntu servers. It does the following:
-
-[![Build Status](https://travis-ci.org/jasonheecs/ubuntu-server-setup.svg?branch=master)](https://travis-ci.org/jasonheecs/ubuntu-server-setup)
 
 This is a setup script to automate the setup and provisioning of Ubuntu servers. It does the following:
 * Adds a new user account with sudo access
@@ -24,7 +21,7 @@ sudo apt-get install git
 Clone this repository into your home directory:
 ```bash
 cd ~
-git clone https://github.com/Honeyb34r/ubuntu-server-auto-setup.git
+git clone https://source.developers.google.com/p/energydrive-analytics-dev/r/ed-loadout
 ```
 
 Run the setup script
@@ -42,7 +39,7 @@ ssh-keygen -t rsa
 cat ~/.ssh/id_rsa.pub
 ```
 
-Finally, you will be prompted to specify a [timezone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) for the server. It will be set to 'Asia/Singapore' if you do not specify a value.
+Finally, you will be prompted to specify a [timezone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) for the server. It will be set to 'Africa/Johannesburg' if you do not specify a value.
 
 # Supported versions
 This setup script has been tested against Ubuntu 14.04, Ubuntu 16.04, Ubuntu 18.04 and Ubuntu 20.04.
