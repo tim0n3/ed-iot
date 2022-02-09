@@ -8,7 +8,7 @@ This is a setup script to automate the setup and provisioning of Ubuntu servers.
 * Deny root login to the server
 * Setup Uncomplicated Firewall
 * Create Swap file based on machine's installed memory
-* Setup the timezone for the server (Default to "Asia/Singapore")
+* Setup the timezone for the server (Default to "Africa/Johannesburg")
 * Install Network Time Protocol
 
 # Installation
@@ -40,10 +40,3 @@ cat ~/.ssh/id_rsa.pub
 ```
 
 Finally, you will be prompted to specify a [timezone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) for the server. It will be set to 'Africa/Johannesburg' if you do not specify a value.
-
-# Supported versions
-This setup script has been tested against Ubuntu 14.04, Ubuntu 16.04, Ubuntu 18.04 and Ubuntu 20.04.
-
-# Running tests
-Tests are run against a set of Vagrant VMs. To run the tests, run the following in the project's directory:  
-`./tests/tests.sh`
