@@ -80,10 +80,10 @@ function logTimestamp() {
 }
 
 function setupTimezone() {
-    echo -ne "Enter the timezone for the server (Default is 'America/Chicago'):\n" >&3
+    echo -ne "Enter the timezone for the server (Default is 'Africa/Johannesburg'):\n" >&3
     read -r timezone
     if [ -z "${timezone}" ]; then
-        timezone="America/Chicago"
+        timezone="Africa/Johannesburg"
     fi
     setTimezone "${timezone}"
     echo "Timezone is set to $(cat /etc/timezone)" >&3
