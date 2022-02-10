@@ -26,7 +26,7 @@ git clone https://source.developers.google.com/p/energydrive-analytics-dev/r/ed-
 
 Run the setup script
 ```bash
-cd ubuntu-server-auto-setup
+cd ed-iot-device-setup
 bash setup.sh
 ```
 
