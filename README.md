@@ -9,7 +9,10 @@ This is a setup script to automate the setup and provisioning of Ubuntu servers.
 * Setup Uncomplicated Firewall
 * Create Swap file based on machine's installed memory
 * Setup the timezone for the server (Default to "Africa/Johannesburg")
-* Install Network Time Protocol
+* Install Network 
+* Download and install dependancies
+* Bind and add to Core IoT for Energy Drive
+* Creates Heartbeat System and sends device statistics to BigQuery / Fulcrum
 
 # Installation
 SSH into your server and install git if it is not installed:
@@ -21,7 +24,7 @@ sudo apt-get install git
 Clone this repository into your home directory:
 ```bash
 cd ~
-git clone https://github.com/Opennetworks-com/ed-iot/
+git clone https://github.com/Opennetworks-com/ed-iot.git
 ```
 
 Run the setup script
