@@ -21,7 +21,7 @@ sudo apt-get install git
 Clone this repository into your home directory:
 ```bash
 cd ~
-git clone https://source.developers.google.com/p/energydrive-analytics-dev/r/ed-loadout
+git clone https://github.com/Opennetworks-com/ed-iot/
 ```
 
 Run the setup script
