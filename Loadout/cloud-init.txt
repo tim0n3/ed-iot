@@ -1,0 +1,12 @@
+mkdir -p ~/www
+cd ~/www
+cat > user-data << 'EOF'
+#cloud-config
+autoinstall:
+  version: 1
+  identity:
+    hostname: [device-id]
+    password: "raspberry"
+    username: pi
+EOF
+touch meta-data
