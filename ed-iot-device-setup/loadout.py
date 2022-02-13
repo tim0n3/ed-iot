@@ -2,7 +2,7 @@ version: 1
 reporting:
     hook:
         type: webhook
-        endpoint: https://console.cloud.google.com/artifacts/python/energydrive-analytics/europe-west3/ed-lodout?project=energydrive-analytics
+        endpoint: https://console.cloud.google.com/artifacts/python/energydrive-analytics-dev/europe-west3/ed-lodout?project=energydrive-analytics-dev
 early-commands:
     - ping -c1 8.8.8.8
 locale: en_US
