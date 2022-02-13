@@ -1,5 +1,8 @@
-# ed-iot
+# ED-iot
 Energy Drive - IoT Device - Loadout
+
+Suggested for Ubuntu Core:
+https://ubuntu.com/download/raspberry-pi/thank-you?version=20&architecture=core-20-arm64+raspi
 
 This is a setup script to automate the setup and provisioning of Ubuntu servers. It does the following:
 * Adds a new user account with sudo access
