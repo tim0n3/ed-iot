@@ -2,6 +2,7 @@
 Energy Drive - IoT Device - Loadout
 
 Suggested for Ubuntu LTS x86/x64:
+
 x64:
 ```
 https://ubuntu.com/download/raspberry-pi/thank-you?version=20.04.3&architecture=server-arm64+raspi
